@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import styled from 'styled-components/native'
 
 /**
  * Escreva aqui componente que receba duas propriedades (FirstName and LastName)
@@ -7,16 +8,16 @@ import {View, Text, StyleSheet} from 'react-native';
  * Mantenha a estrutura do componente abaixo (View com dois Texts)
  */
 
+const FirstName = styled.Text`
+`;
+const LastName = styled.Text``;
+
 const ReusableExercise = () => {
   return (
     <View style={style.container}>
       <View style={style.row}>
-        <Text>Jose</Text>
-        <Text>Urbano</Text>
-      </View>
-      <View style={style.row}>
-        <Text>Maria</Text>
-        <Text>Duarte</Text>
+        <FirstName>Micael </FirstName>
+        <LastName>Noronha</LastName>
       </View>
     </View>
   );
