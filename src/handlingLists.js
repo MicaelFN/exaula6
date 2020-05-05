@@ -2,7 +2,9 @@ import React from 'react';
 import {FlatList, StyleSheet, Text, View} from 'react-native';
 
 class FlatListBasics extends React.Component {
-  constructor() {}
+  constructor(){
+  
+  }
 
   /**
    * Obtem o JSON do site https://jsonplaceholder.typicode.com/posts e renderize um lista mostrando o titulo de todos os posts

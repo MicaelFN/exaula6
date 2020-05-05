@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, ActivityIndicator} from 'react-native';
 
-export default class LifeCycle extends React.Component {
+export default class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {date: new Date(), loading: true};
@@ -32,7 +32,7 @@ export default class LifeCycle extends React.Component {
     else {
       return (
         <>
-          <Text>Hello, world!</Text>
+          <Text>Horas</Text>
           <Text>It is {this.state.date.toLocaleTimeString()}.</Text>
         </>
       );

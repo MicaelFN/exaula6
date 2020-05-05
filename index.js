@@ -10,5 +10,8 @@ import SideEffects from './src/sideEffects';
 import interpolateJSX from './src/interpolateJSX';
 import ReusableExercise from './src/reusableComponent';
 import EventHandlers from './src/eventHandlers';
+import ErrorB from './src/errorBoundary';
+import {FlatListBasics} from './src/handlingLists';
+import LifeCycle from './src/lifeCycle'
 
-AppRegistry.registerComponent(appName, () => EventHandlers);
+AppRegistry.registerComponent(appName, () => LifeCycle);
