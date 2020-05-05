@@ -8,6 +8,7 @@ import {name as appName} from './app.json';
 import ValidateWithPrototype from './src/validateWithProptype';
 import SideEffects from './src/sideEffects';
 import interpolateJSX from './src/interpolateJSX';
-import ReusableExercise from './src/reusableComponent'
+import ReusableExercise from './src/reusableComponent';
+import EventHandlers from './src/eventHandlers';
 
-AppRegistry.registerComponent(appName, () => ReusableExercise);
+AppRegistry.registerComponent(appName, () => EventHandlers);
